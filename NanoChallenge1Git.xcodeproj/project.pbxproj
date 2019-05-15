@@ -12,6 +12,9 @@
 		BE199060228B9D39007211F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE19905E228B9D39007211F0 /* Main.storyboard */; };
 		BE199062228B9D3B007211F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE199061228B9D3B007211F0 /* Assets.xcassets */; };
 		BE199065228B9D3B007211F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE199063228B9D3B007211F0 /* LaunchScreen.storyboard */; };
+		BECA541B228BB43400649566 /* CakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECA541A228BB43400649566 /* CakeModel.swift */; };
+		BECA541D228BC4C400649566 /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECA541C228BC4C400649566 /* FacilitatorModel.swift */; };
+		BEF1BD2B228BA88000998687 /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1BD2A228BA88000998687 /* LearnerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		BE199061228B9D3B007211F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE199064228B9D3B007211F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE199066228B9D3B007211F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BECA541A228BB43400649566 /* CakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeModel.swift; sourceTree = "<group>"; };
+		BECA541C228BC4C400649566 /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
+		BEF1BD2A228BA88000998687 /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				BE19905A228B9D39007211F0 /* AppDelegate.swift */,
 				BE19905C228B9D39007211F0 /* ViewController.swift */,
+				BECA541C228BC4C400649566 /* FacilitatorModel.swift */,
+				BEF1BD2A228BA88000998687 /* LearnerModel.swift */,
 				BE19905E228B9D39007211F0 /* Main.storyboard */,
 				BE199061228B9D3B007211F0 /* Assets.xcassets */,
 				BE199063228B9D3B007211F0 /* LaunchScreen.storyboard */,
 				BE199066228B9D3B007211F0 /* Info.plist */,
+				BECA541A228BB43400649566 /* CakeModel.swift */,
 			);
 			path = NanoChallenge1Git;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE19905D228B9D39007211F0 /* ViewController.swift in Sources */,
+				BEF1BD2B228BA88000998687 /* LearnerModel.swift in Sources */,
 				BE19905B228B9D39007211F0 /* AppDelegate.swift in Sources */,
+				BECA541D228BC4C400649566 /* FacilitatorModel.swift in Sources */,
+				BECA541B228BB43400649566 /* CakeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
